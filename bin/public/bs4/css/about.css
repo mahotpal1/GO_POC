@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    /* background-position: center; */
+    /* min-width: 100%;
+    min-height: 100%; */
+    /* position: fixed;  */
+    user-select: none;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(61, 60, 60, 0.4);
+    /* overflow: hidden; */
+    /* position: fixed;
+    top: 0; */
+    /* background-color: #4caf50; */
+}
+.image{
+  width: 130px;
+  height: 100%;
+  border-radius: 50%;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    border: 1px solid #4caf50;
+    color: #4caf50
+}
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+  
+  #section1 {
+    height: 650px;
+    width: 100%;
+    margin-top: 0px;
+    /* overflow: hidden; */
+  }
+  
+  #section2 {
+    height: 650px;
+    width: 100%;
+    /* margin-top: 100px; */
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  /* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+  
+  .column {
+    float: left;
+    /* margin-left: 20px; */
+    width: 20%;
+    margin: 16px 20px;
+    padding: 0 8px;
+    border: 1px solid honeydew;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+.card h2{
+  color:  #4caf50;
+  text-align: center;
+}
+  .about-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #4caf50;
+    color: black;
+  }
+.note{
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+}
+h2{
+  text-decoration: red;
+  font-style: italic;
+  color: red;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+  color: black;
+  font-family: arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  display: block;
+  table-layout: fixed;
+  height: 300px;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.center{
+  text-align: center;
+}
+td{
+  padding: 12px 18px;
+}
+tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+th{
+  padding: 10px;
+    position: sticky;
+    top:0;
+    /* background: rgb(231, 231, 150); */
+    background: lightgreen;
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 15px;
+}
+/* tr:nth-of-type(even){
+  background-color: black;
+  color: #4caf50;
+  font-weight: bold;
+} */
+/* table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+} */
+.eqip1{
+  color: lightseagreen;
+}
+.eqip2{
+  color: lightpink;
+}
+.eqip3{
+  color: lightyellow;
+}
+.sec1, 
+.sec2{
+  border: 2px solid #4caf50;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.sec1:hover, 
+.sec2:hover{
+  border: 1px solid #4caf50;
+  color: lightgreen;
+}
+.sec2{
+  margin-left: 550px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+.email{
+  color: lightsalmon;
+}
+  .container {
+      color: white;
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(63, 62, 62);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+}

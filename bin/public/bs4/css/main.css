@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed; 
+    user-select: none;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    scrollbar-color:gold;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(61, 60, 60, 0.4);
+}
+.image{
+    width: 130px;
+    height: 100%;
+    border-radius: 50%;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    border: 1px solid #4caf50;
+    color: #4caf50
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+    transition: .5s;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: lightgreen;
+    border: 3px solid  #4caf50;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: white;
+}
+
+.navbot{
+      bottom: 0;
+      position: fixed;
+      width:100%;
+}
+
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 5%;
+      background-color: burlywood;
+      text-align: center;
+      padding-top: 1%;
+      font-weight: bold;
+}

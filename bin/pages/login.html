@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Login here!</title>
+    <link rel="stylesheet" href="css/login.css"/>
+   </head>
+   <body>
+    <div class='wrapper'>
+        <nav class='navbar'>
+            <img class='image' src="img/wipro.png"/>
+            <ul>
+                <li><a class="active" href="/"> Home</a></li>
+                <li><a href="about"> About Us</a></li>
+                <li><a href="contact"> Contact Us</a></li>
+            </ul>
+        </nav>
+        <br/>
+        <form class='login-box'  name="myForm" action="/process" method="POST">
+            <img class='image2' src="img/login.png"/>
+            <div class='textbox'>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type='text' name="username" placeholder='Employee ID' autoFocus='autofocus' autocomplete="off" required/>
+            </div>
+            <div class="textbox">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type='password' name="password" placeholder='Password' autocomplete="off" required/>
+            </div><br/>
+            <div class='role'>
+                <select name='role' required>
+                    <option>User </option>
+                    <option>Admin </option>
+                </select>
+            </div>
+            <button class='btn'> Login </button>
+            <div class='signup'>
+                <a class='link' href="forgotpassword">Forgot Password?</a>
+            </div>
+            <div class='signup'>
+                <label>New user?</label>
+                <a class='link' href="signup">Sign Up</a>
+            </div>
+        </form>
+        <div class="footer">
+            <p>&copy;  Copyright 2022</p>
+      </div>
+    </div>
+   </body>
+</html>
